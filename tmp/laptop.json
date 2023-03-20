@@ -1,0 +1,62 @@
+{
+ "id": "782a0afc-1d07-4672-872d-06f577c6d7c5",
+ "brand": "ThinkPad",
+ "name": "x230",
+ "cpu": {
+  "brand": "Intel",
+  "name": "Core i7",
+  "number_cores": 5,
+  "number_threads": 8,
+  "min_ghz": 2.209343109753487,
+  "max_ghz": 3.4366608992972116
+ },
+ "ram": {
+  "value": 42,
+  "unit": 5
+ },
+ "gpus": [
+  {
+   "brand": "AMD",
+   "name": "RX 580",
+   "min_ghz": 1.1902739075561433,
+   "max_ghz": 1.4359498074765753,
+   "memory": {
+    "value": 5,
+    "unit": 5
+   }
+  }
+ ],
+ "storages": [
+  {
+   "driver": 2,
+   "memory": {
+    "value": 394,
+    "unit": 5
+   }
+  },
+  {
+   "driver": 1,
+   "memory": {
+    "value": 5,
+    "unit": 6
+   }
+  }
+ ],
+ "screen": {
+  "size_inch": 16.687563,
+  "resolution": {
+   "width": 6753,
+   "heigth": 3799
+  },
+  "panel": 2,
+  "multitouch": false
+ },
+ "keyboard": {
+  "layout": 2,
+  "backlit": true
+ },
+ "weight_kg": 2.2207822666421664,
+ "price_usd": 3231.93896155518,
+ "release_year": 2021,
+ "updated_at": "2023-03-20T19:22:35.176091471Z"
+}

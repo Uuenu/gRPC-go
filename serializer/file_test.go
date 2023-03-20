@@ -13,6 +13,7 @@ func TestFileSerializer(t *testing.T) {
 	t.Parallel()
 
 	binaryFile := "../tmp/laptop.bin"
+	jsonFile := "../tmp/laptop.json"
 
 	laptop1 := sample.NewLaptop()
 
@@ -24,4 +25,7 @@ func TestFileSerializer(t *testing.T) {
 	err2 := ReadProtobufFromBinaryFile(binaryFile, laptop2)
 	require.NoError(t, err2)
 	require.True(t, proto.Equal(laptop1, laptop2))
+
+	err3 := WriteProtobufToJSONFile(laptop1, jsonFile)
+	require.NoError(t, err3)
 }
